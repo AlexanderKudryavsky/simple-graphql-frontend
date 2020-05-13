@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {Pet} from "./components/Pet/Pet";
+import {List} from "./components/Pet/List";
+import {AvailablePets} from "./components/Pet/AvailablePets";
+import {PetById} from "./components/Pet/PetById";
+import {CreateAccount} from "./components/Auth/CreateAccount";
+import {Login} from "./components/Auth/Login";
+import {CheckIn} from "./components/Pet/CheckIn";
+import {CheckOut} from "./components/Pet/CheckOut";
+import {Subscription} from "./components/Pet/Subscription";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        {/*<Pet/>z*/}
+        {/*<List/>*/}
+        {/*<AvailablePets/>*/}
+        {/*<PetById/>*/}
+        {/*<CreateAccount />*/}
+        {/*<Login/>*/}
+        <CheckIn/>
+        <CheckOut/>
+        <Subscription/>
+    </>
   );
 }
 

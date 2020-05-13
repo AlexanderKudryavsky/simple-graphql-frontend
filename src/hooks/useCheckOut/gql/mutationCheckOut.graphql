@@ -1,0 +1,7 @@
+mutation checkout ($id: ID!) {
+    checkOut(id: $id) {
+        pet{
+            name
+        }
+    }
+}
